@@ -15,6 +15,7 @@ module.exports = {
       { text: 'Home', link: '#' },
       { text: 'Paste', link: 'https://paste.helpch.at/' },
       { text: 'Yaml', link: 'https://yaml.helpch.at/' },
+      { text: 'Github', link: 'https://helpch.at/git' },
       { text: 'Discord', link: 'https://helpch.at/discord' },
       { text: 'Docs', link: 'https://helpch.at/docs' },
     ],
