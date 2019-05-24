@@ -1,9 +1,9 @@
 $bg-color = #2d2d2d;
 $title-color = #2bc7fe;
 $feature-color = #d8d8d8;
-
+$nav-color = #272727;
 html
-  background-color $bg-color
+  background-color $bg-color!important
 
 body
   background-color $bg-color!important
@@ -11,28 +11,30 @@ body
 
 .navbar
     border-color desaturate(lighten($bg-color, 30%), 30%)
-    background-color $bg-color
+    background-color $nav-color!important
     color desaturate(lighten($bg-color, 80%), 50%)
     border-bottom none!important
     .site-name
         color #fff;
     .links
-        background-color $bg-color
+        background-color $nav-color!important
 .home
   .hero
+    #main-title
+      color $feature-color!important
     .action-button 
-      background-color $title-color
+      background-color $title-color!important
       &:hover
-          background-color: $title-color
+          background-color: $title-color!important
     .description
-      color $feature-color
+      color $feature-color!important
       h1
-        color $title-color
+        color $title-color!important
   .feature
     h2
-      color $title-color
+      color $title-color!important
     p
-      color $feature-color
+      color $feature-color!important
       
   .footer
-    color $feature-color
+    color $feature-color!important
