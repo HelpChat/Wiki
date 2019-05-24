@@ -38,3 +38,21 @@ body
       
   .footer
     color $feature-color!important
+
+.search-box
+  input
+    border-color #383838;
+    background-color $bg-color
+    color desaturate(lighten($bg-color, 80%), 50%)
+    &:focus
+        border-color $title-color!important
+  .suggestions
+    background-color desaturate(lighten($bg-color, 15%), 10%)
+    border 0
+  .suggestion
+    a
+      color desaturate(lighten($bg-color, 80%), 50%)
+    &.focused
+      background-color desaturate(lighten($bg-color, 30%), 30%)
+      a
+        color #fff
