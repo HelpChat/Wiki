@@ -15,9 +15,14 @@ body
     color desaturate(lighten($bg-color, 80%), 50%)
     border-bottom none!important
     .site-name
-        color #fff;
+        color #fff
     .links
         background-color $nav-color!important
+.nav-links
+    a
+      &:hover
+          color #fff    
+          border-bottom: none!important
 .home
   .hero
     #main-title
@@ -56,3 +61,5 @@ body
       background-color desaturate(lighten($bg-color, 30%), 30%)
       a
         color #fff
+.icon.outbound
+    display: none!important
