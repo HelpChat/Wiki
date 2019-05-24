@@ -5,7 +5,7 @@ module.exports = {
     ['link', { rel: 'icon', href: '/favicon.png' }]
   ],
   themeConfig: {
-    logo: '/logo.png',
+    logo: '/favicon.png',
     nav: [
       { text: 'Home', link: '#' },
       { text: 'Paste', link: 'https://paste.helpch.at/' },
