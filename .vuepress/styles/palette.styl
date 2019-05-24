@@ -1,0 +1,31 @@
+$bg-color = #151515;
+$title-color = #eaeaea;
+$feature-color = #d8d8d8;
+
+body
+  background-color $bg-color!important
+  color desaturate(lighten($bg-color, 80%), 50%)
+
+.navbar
+    border-color desaturate(lighten($bg-color, 30%), 30%)
+    background-color #151515!important
+    color desaturate(lighten($bg-color, 80%), 50%)
+    border-bottom none!important
+    .site-name
+        color #fff;
+    .links
+        background-color $bg-color
+.home
+  .hero
+    .description
+      color $feature-color
+      h1
+        color $title-color
+  .feature
+    h2
+      color $title-color
+    p
+      color $feature-color
+      
+  .footer
+    color $feature-color
