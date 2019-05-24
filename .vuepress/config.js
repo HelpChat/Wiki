@@ -4,6 +4,11 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }]
   ],
+  plugins: [
+    'clean-urls',
+    '@vuepress/back-to-top',
+    '@vuepress/last-updated',
+  ],
   themeConfig: {
     logo: '/favicon.png',
     nav: [
