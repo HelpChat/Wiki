@@ -6,8 +6,5 @@
   "scripts": {
     "build": "vuepress build",
     "dev": "vuepress dev"
-  },
-  "dependencies": {
-    "vuepress-plugin-clean-urls": "^1.0.3"
   }
 }
