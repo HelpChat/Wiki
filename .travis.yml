@@ -13,3 +13,12 @@ install:
   - "yarn run build"
 script:
   - "echo \"No tests\""
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github-token: $GITHUB_TOKEN
+  target-branch: "gh-pages"
+  local-dir: ".vuepress/dist"
+  keep-history: true
+  on:
+    branch: master
