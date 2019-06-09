@@ -33,8 +33,16 @@
         v-for="(feature, index) in data.features"
         :key="index"
       >
-        <h2>{{ feature.title }}</h2>
+      <img
+      class="resource-picture"
+      :src="(feature.img)"
+      />
+      <div
+      class="resource-content"
+      >
+        <h2 v-bind:style="{'border-bottom': 'none'}">{{ feature.title }}</h2>
         <p>{{ feature.details }}</p>
+        </div>
       </div>
     </div>
 
@@ -114,17 +122,17 @@ export default {
     align-content stretch
     justify-content space-between
   .feature
-    flex-grow 1
-    flex-basis 30%
-    max-width 30%
+    display: flex
+    width: 49vw
+    height: 15vh
+    flex-basis 50%
+    max-width 50%
+    .resource-picture
+      height: 60%
     h2
-      font-size 1.4rem
-      font-weight 500
-      border-bottom none
-      padding-bottom 0
-      color lighten($textColor, 10%)
+      margin: 0 5px 3px;
     p
-      color lighten($textColor, 25%)
+      margin: 0 5px 3px;
   .footer
     padding 2.5rem
     border-top 1px solid $borderColor
