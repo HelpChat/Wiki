@@ -165,6 +165,8 @@ export default {
         font-size 1rem
         padding 0.6rem 1.2rem
     .feature
-      h2
-        font-size 1.25rem
+      margin-bottom 30px
+      .resource-content
+        p
+          font-size 12px
 </style>
