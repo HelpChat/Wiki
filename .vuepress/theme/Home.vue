@@ -169,4 +169,6 @@ export default {
       .resource-content
         p
           font-size 12px
+        h2
+          padding-right 20px
 </style>
