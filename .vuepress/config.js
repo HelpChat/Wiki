@@ -1,6 +1,6 @@
 module.exports = {
   title: 'HelpChat Wiki',
-  description: 'Your one-stop-shop for information about hundreads of plugins!',
+  description: 'Your one-stop-shop for information about lots of plugins!',
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }]
   ],
