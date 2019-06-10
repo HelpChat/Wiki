@@ -5,6 +5,7 @@ features:
 - title: ActionAnnouncer
   details: All in one action bar announcement plugin!
   img: https://i.imgur.com/Hnv61bt.png
+  link: /plugins/actionannouncer
 - title: AutoSell
   details: Ultimate prison mining and selling solution!
   img: https://i.imgur.com/yDqL6wI.png

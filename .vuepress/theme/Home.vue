@@ -33,14 +33,21 @@
         v-for="(feature, index) in data.features"
         :key="index"
       >
+      <a
+      :href="(feature.link)"
+      >
       <img
       class="resource-picture"
       :src="(feature.img)"
       />
+      </a>
       <div
       class="resource-content"
       >
-        <h2 v-bind:style="{'border-bottom': 'none'}">{{ feature.title }}</h2>
+      <a
+      :href="(feature.link)"
+      >
+        <h2 v-bind:style="{'border-bottom': 'none'}">{{ feature.title }}</h2></a>
         <p>{{ feature.details }}</p>
         </div>
       </div>
