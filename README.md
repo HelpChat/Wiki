@@ -16,7 +16,7 @@ features:
   link: /plugins/chatreaction
 - title: ChatReactionPlus
   details: An add-on to ChatReaction which adds new special features!
-  img: /plugin-logos/chatreactionplus.png
+  img: /plugin-logos/chatreaction.png
   link: /plugins/chatreactionplus
 - title: DeluxeChat
   details: The original "json" chat formatting plugin
