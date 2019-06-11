@@ -4,79 +4,79 @@ heroImage: /logo.png
 features:
 - title: ActionAnnouncer
   details: All in one action bar announcement plugin!
-  img: https://i.imgur.com/Hnv61bt.png
+  img: /plugin-logos/actionannouncer.png
   link: /plugins/actionannouncer
 - title: AutoSell
   details: Ultimate prison mining and selling solution!
-  img: https://i.imgur.com/yDqL6wI.png
+  img: /plugin-logos/autosell.png
   link: /plugins/autosell
 - title: ChatReaction
   details: Be the first to type/unscramble the word for rewards!
-  img: https://i.imgur.com/WC42XJK.png
+  img: /plugin-logos/chatreaction.png
   link: /plugins/chatreaction
 - title: ChatReactionPlus
   details: An add-on to ChatReaction which adds new special features!
-  img: https://i.imgur.com/WC42XJK.png
+  img: /plugin-logos/chatreactionplus.png
   link: /plugins/chatreactionplus
 - title: DeluxeChat
   details: The original "json" chat formatting plugin
-  img: https://i.imgur.com/WzDz4gB.png
+  img: /plugin-logos/deluxechat.png
   link: /plugins/deluxechat
 - title: DeluxeCommands
   details: Create custom text commands which utilize JSON and allows player specific placeholders!
-  img: https://i.imgur.com/guKMwg0.jpg
+  img: /plugin-logos/deluxecommands.png
   link: /plugins/deluxecommands
 - title: DeluxeJoin
   details: Highly customizable permission based join and leave "action" plugin with tons of placeholders!
-  img: https://i.imgur.com/yklmAZk.png
+  img: /plugin-logos/deluxejoin.png
   link: /plugins/deluxejoin
 - title: DeluxeMenus
   details: The all in one GUI menu plugin!
-  img: https://i.imgur.com/owTNLZA.png
+  img: /plugin-logos/deluxemenus.png
   link: /plugins/deluxemenus
 - title: DeluxeTags
   details: Allow players to select chat tags that can be awarded by permission! DeluxeChat + EssentialsChat
-  img: https://i.imgur.com/WUpio55.png
+  img: /plugin-logos/deluxetags.png
   link: /plugins/deluxetags
 - title: EZBlocks
   details: Reward players for mining + track global blocks broken + pickaxe specific blocks broken counters!
-  img: https://i.imgur.com/JFr5tv0.png
+  img: /plugin-logos/ezblocks.png
   link: /plugins/ezblocks
 - title: EZPrestige
   details: Let players /prestige the EZ way
-  img: https://i.imgur.com/hLyRkhp.png
+  img: /plugin-logos/ezprestige.png
   link: /plugins/ezprestige
 - title: EZRanksPro
   details: The most customizable /rankup plugin
-  img: https://i.imgur.com/tJZv4Ee.png
+  img: /plugin-logos/ezrankspro.png
   link: /plugins/ezrankspro
 - title: InventoryFull
   details: Totally customizable alert plugin to inform players when they don't have inventory space!
-  img: https://i.imgur.com/sXralnc.png
+  img: /plugin-logos/inventoryfull.png
   link: /plugins/inventoryfull
 - title: MessageAnnouncer
   details: JSON message interval announcements with multiple lines and support for tons of placeholders!
-  img: https://i.imgur.com/0Bgfnw9.png
+  img: /plugin-logos/messageannouncer.png
   link: /plugins/messageannouncer
 - title: MineCrates
   details: Get lucky and find a chest full of rewards while mining!
-  img: https://i.imgur.com/CzLuVSF.png
+  img: /plugin-logos/minecrates.png
   link: /plugins/minecrates
 - title: NoFlyZone
   details: Block flying in specific WorldGuard regions + Auto flying in specific WorldGuard regions
-  img: https://i.imgur.com/iCyzjGg.png
+  img: /plugin-logos/noflyzone.png
   link: /plugins/noflyzone
 - title: PlaceholderAPI
   details: A resource that allows information from your favorite plugins be shown practically anywhere!
-  img: https://i.imgur.com/uK1dMyQ.png
+  img: /plugin-logos/placeholderapi.png
   link: /plugins/placeholderapi
 - title: RankupHolograms
   details: Add on for EZRanksPro and Holographic Displays to display holograms when players rankup!
-  img: https://i.imgur.com/DTvqzRP.png
+  img: /plugin-logos/rankupholograms.png
   link: /plugins/rankupholograms
 - title: VoteParty
   details: Give rewards to all online players when the server gets a certain amount of votes!
-  img: https://i.imgur.com/tph9xRr.png
+  img: /plugin-logos/voteparty.png
   link: /plugins/voteparty
 footer: MIT Licensed | Copyright © 2019 HelpChat
 ---

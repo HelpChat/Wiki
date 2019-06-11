@@ -36,7 +36,7 @@
       >
       <img
       class="resource-picture"
-      :src="(feature.img)"
+      :src="$withBase(feature.img)"
       />
       </a>
       <div
